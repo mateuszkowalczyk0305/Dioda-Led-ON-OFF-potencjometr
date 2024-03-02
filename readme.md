@@ -9,5 +9,10 @@ Podłączenie potencjometru i sprawdzenie odzcytu wartości analogowej napięcia
 Zapoznanie się z obsługą wyświetlacza LCD 2x16:
 ### Youtube video - hardware:
 https://youtu.be/_LdmandAPAM
+## Czujnik temperatury:
+podłączenie czujnika temperatury oraz odczyt wyniku na wyświetlaczu LCD.
+# Youtube video - hardware:
+https://youtu.be/hpinqHuio1Q
+
 
 
