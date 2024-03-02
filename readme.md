@@ -1,7 +1,7 @@
 # Two Buttons -> Led Switching ON/OFF
 
-My first Arduino project :) .
+Pierwszy projekt Arduino.
 
-# YouTube video - hardware presentation:
+# YouTube video - hardware:
 
 https://youtu.be/t5n32d55lQ8
