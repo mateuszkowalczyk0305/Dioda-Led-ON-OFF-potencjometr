@@ -11,7 +11,7 @@ Zapoznanie się z obsługą wyświetlacza LCD 2x16:
 https://youtu.be/_LdmandAPAM
 ## Czujnik temperatury:
 podłączenie czujnika temperatury oraz odczyt wyniku na wyświetlaczu LCD.
-# Youtube video - hardware:
+### Youtube video - hardware:
 https://youtu.be/hpinqHuio1Q
 
 
