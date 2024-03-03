@@ -17,3 +17,9 @@ https://youtu.be/_LdmandAPAM
 podłączenie czujnika temperatury oraz odczyt wyniku na wyświetlaczu LCD.
 ### Youtube video - hardware:
 https://youtu.be/hpinqHuio1Q
+## 📌 Czujnik temperatury / natężenia światła:
+Za pomocą przycisków (zielony/czerwony):
+- wyświetlenie wartości temperatury na wyświetlaczu LCD,
+- wyświetlenie wartości natężenia światła w % na wyświetlaczu LCD.
+### Youtube video - hardware:
+https://youtu.be/V30FLg9SZ4g
