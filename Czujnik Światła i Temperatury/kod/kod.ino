@@ -62,7 +62,7 @@ int NatSwiatla = map(odczytRezyst, 0, 1023, 0, 100);
 lcd.clear();
 // wyświetl natężenie światła:
 lcd.setCursor(0,0);
-lcd.print("NAT. SWIATLA:");
+lcd.print("NATENZ. SWIATLA:");
 lcd.setCursor(0,1);
 lcd.print(NatSwiatla);
 lcd.print("%");
