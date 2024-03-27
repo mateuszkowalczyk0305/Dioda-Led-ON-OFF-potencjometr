@@ -29,6 +29,5 @@ Projekt posiada takie funkcjonalności jak:
 - odczyt odległości z czujnika HCSR04,
 - wyświetlenie wyniku na wyświetlaczu LCD 2x16,
 - uruchomienie buzzera oraz diody, gdy na danym zakresie pojawi się przeszkoda.
-Hardware:
-![alt text](hardware.png "Centralka alarmowa - hardware")
+
 
