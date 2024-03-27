@@ -17,17 +17,8 @@ void setup()
 
 void loop()
 {
-// wyświetlenie wyniku
-  lcd.begin(16,2);
-  lcd.clear();
-  lcd.setCursor(0,0);
-  lcd.print("ODLEGLOSC: ");
-  lcd.setCursor(0,1);
-  lcd.print(zmierzOdleglosc());
-  lcd.setCursor(4,1);
-  lcd.print("cm");
-
-  zakres(50, 100); // buzzer ON -> obiekt w odleglosci <50 cm, 100 cm>
+  wyswietlacz();
+  zakres(10, 100); // buzzer ON -> obiekt w odleglosci <50 cm, 100 cm>
   delay(500);
 }
 
@@ -54,21 +45,26 @@ void zakres(int a, int b)
 
   if ((odleglosc > a) && (odleglosc < b))
   {
-    digitalWrite(4, HIGH);
-    delay(500);
-    digitalWrite(2, LOW);
-    delay(500);
-    digitalWrite(4, HIGH);
-    delay(500);
-    digitalWrite(2, LOW);
-    delay(500);
-    digitalWrite(4, HIGH);
-    delay(500);
-    digitalWrite(2, LOW);
-    delay(500);
+    digitalWrite(4, HIGH);// odpal buzzer
+    digitalWrite(2, LOW); // zapal diode
+
   }
   else
   {
-    digitalWrite(2, LOW);
+    digitalWrite(4, LOW);
   }
+}
+
+void wyswietlacz()
+{
+  // wyświetlenie wyniku
+  lcd.begin(16,2);
+  lcd.clear();
+  lcd.setCursor(0,0);
+  lcd.print("ODLEGLOSC: ");
+  lcd.setCursor(0,1);
+  lcd.print(zmierzOdleglosc());
+  lcd.setCursor(4,1);
+  lcd.print("cm");
+  delay(100);
 }
