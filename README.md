@@ -28,6 +28,6 @@ https://youtu.be/V30FLg9SZ4g
 Projekt posiada takie funkcjonalności jak:
 - odczyt odległości z czujnika HCSR04,
 - wyświetlenie wyniku na wyświetlaczu LCD 2x16,
-- uruchomienie buzzera oraz diody, gdy na danym zakresie pojawi się przeszkoda.
+- uruchomienie buzzera oraz diody, gdy w danym zakresie pojawi się przeszkoda.
 
 
