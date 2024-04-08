@@ -46,7 +46,7 @@ void zakres(int a, int b)
   if ((odleglosc > a) && (odleglosc < b))
   {
     digitalWrite(4, HIGH);// odpal buzzer
-    digitalWrite(2, LOW); // zapal diode
+    digitalWrite(2, HIGH); // zapal diode
 
   }
   else
