@@ -23,7 +23,6 @@ Za pomocą przycisków (zielony/czerwony):
 - wyświetlenie wartości natężenia światła w % na wyświetlaczu LCD.
 ### Youtube video - hardware:
 https://youtu.be/V30FLg9SZ4g
-
 ## 📌 Mini centralka alarmowa:
 Projekt posiada takie funkcjonalności jak:
 - odczyt odległości z czujnika HCSR04,
