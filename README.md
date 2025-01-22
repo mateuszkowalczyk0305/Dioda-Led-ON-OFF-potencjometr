@@ -11,7 +11,7 @@ Projekt "Arduino Kostka do Gry" umożliwia użytkownikom rzucanie wirtualną kos
 https://youtu.be/gdU8mqWNYZc?si=3pCSER7YGYT_VaQR
 
 ## 📌 Potencjometr:
-Podłączenie potencjometru i sprawdzenie odzcytu wartości analogowej napięcia w postaci bitowej <0;1023> w konsoli.
+Podłączenie potencjometru i sprawdzenie odzcytu wartości analogowej napięcia z zakresu <0;1023> w konsoli.
 
 ## 📌 LCD - wyświetlacz:
 Zapoznanie się z obsługą wyświetlacza LCD 2x16:
